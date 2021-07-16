@@ -173,7 +173,6 @@ h2 {
   position: static;
   width: 145px;
   height: 24px;
-  top: 0px;
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -268,7 +267,6 @@ h5 {
   align-items: center;
   margin: -324px 0px;
   margin-left: 283px;
-  border: 0px solid #acb7c3;
 }
 
 .union-img {
@@ -287,7 +285,6 @@ h5 {
   align-items: center;
   margin: -16px 0px;
   margin-left: 283px;
-  border: 0px solid #acb7c3;
 }
 
 .disabled-img {
