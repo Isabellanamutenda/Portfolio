@@ -379,6 +379,14 @@ button[type=submit] {
   font-size: 17px;
 }
 
+button[type=submit]:hover {
+  background-color: #e5e5e5;
+}
+
+button[type=submit]:active {
+  background-color: #cfd8dc;
+}
+
 textarea {
   width: 50%;
   padding: 12px 20px;
