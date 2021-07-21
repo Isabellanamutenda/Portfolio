@@ -131,7 +131,6 @@ p {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  margin: -116px 0px;
 }
 
 .icon {
@@ -179,7 +178,6 @@ h2 {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin: 23px 0px;
   margin-left: 148px;
 }
 
@@ -211,7 +209,6 @@ h3 {
   color: #000;
   display: flex;
   align-items: center;
-  margin: -319px 0px;
   margin-left: 52px;
 }
 
@@ -229,7 +226,6 @@ h4 {
   color: #000;
   display: flex;
   align-items: center;
-  margin: -19px 0px;
   margin-left: 52px;
 }
 
@@ -247,7 +243,6 @@ h5 {
   color: #000;
   display: flex;
   align-items: center;
-  margin: 55px 0px;
   margin-left: 52px;
 }
 
@@ -265,7 +260,6 @@ h5 {
   color: #acb7c3;
   display: flex;
   align-items: center;
-  margin: -324px 0px;
   margin-left: 283px;
 }
 
@@ -283,7 +277,6 @@ h5 {
   color: #acb7c3;
   display: flex;
   align-items: center;
-  margin: -16px 0px;
   margin-left: 283px;
 }
 
@@ -301,6 +294,155 @@ h5 {
   color: #acb7c3;
   display: flex;
   align-items: center;
-  margin: 60px 0px;
   margin-left: 283px;
+}
+
+.contact {
+  background-image: url("images/Contact\ me.svg");
+  background-repeat: no-repeat;
+  background-size: 495px 1468px;
+  position: absolute;
+  width: 100%;
+  height: 1863px;
+  top: 3565px;
+  background-color: #fff;
+}
+
+.form {
+  justify-content: center;
+  align-items: center;
+  width: 518px;
+  margin: -81px 126px;
+}
+
+h6 {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  justify-content: center;
+}
+
+.content {
+  position: absolute;
+  width: 265px;
+  height: 102px;
+  left: 24px;
+  line-height: 28px;
+  top: 366px;
+  font-style: normal;
+  font-weight: normal;
+  color: #ebebff;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  margin: 61px 103px;
+}
+
+input[type=text],
+select {
+  width: 50%;
+  padding: 12px 20px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  color: #172b4d;
+  font-size: 17px;
+}
+
+input[type=email] {
+  width: 50%;
+  padding: 12px 20px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background-color: #fff;
+  align-items: center;
+  color: #172b4d;
+  font-size: 17px;
+}
+
+button[type=submit] {
+  width: 30%;
+  padding: 12px 20px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background-color: #fff;
+  align-items: center;
+  color: #6070ff;
+  font-size: 17px;
+}
+
+button[type=submit]:hover {
+  background-color: #e5e5e5;
+}
+
+button[type=submit]:active {
+  background-color: #cfd8dc;
+}
+
+textarea {
+  width: 50%;
+  padding: 12px 20px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background-color: #fff;
+  align-items: center;
+  color: #172b4d;
+  font-size: 17px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 74px;
+  height: 17px;
+  left: 310px;
+  margin: 252px 120px;
+}
+
+.ellipse {
+  position: absolute;
+  width: 90px;
+  height: 89px;
+  left: 328px;
+  margin: 275px 120px;
+}
+
+.lipse {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 153px;
+  margin: 252px 90px;
+}
+
+.ellipse5 {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 276px;
+  margin: -3px 47px;
+}
+
+.rectangle7 {
+  position: absolute;
+  width: 76px;
+  height: 13px;
+  left: 258px;
+  margin: -25px 70px;
+}
+
+.shape {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px / 2);
+  bottom: 8px;
+  margin: 636px -9px;
 }
