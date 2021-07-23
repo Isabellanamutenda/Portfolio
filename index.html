@@ -2,118 +2,257 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <!-- Google Fonts -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg></script>
 </head>
 
 <body>
- <section class="work-section">
-    <div class="work1">
-    </div>
-    <div class="work2">
-    </div>
-    <div class="work3">
-    </div>
-    <div class="work4">
-    </div>
- </section>
+    <header>
 
- <section class="about">
-    <div class="top">
-  <div class="about-myself">
-      <h1>About<br>Myself</h1>
-  </div>
-      <div class="paragraph">
-      <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-    </p>
-</div>
-<div>
-    <h2>LET'S CONNECT</h2>
-    <ul class="icon">
-        <li><a href="#"><img  src="./images/github.svg" alt=""></a></li>
-        <li><a href="#"><img  src="./images/Linkedinicon.svg" alt=""></a></li>
-        <li><a href="#"><img  src="./images/angellist.svg" alt=""></a></li>
-        <li><a href="#"><img  src="./images/twitter(1).svg" alt=""></a></li>
-        <li><a href="#"><img  src="./images/medium.svg" alt=""></a></li>
-    </ul>
-    <button type="button">Get my resume</button>
-</div>
-<div>
-    <h3>Languages</h3>
-    <div class="arrow-img">
-        <img src="./images/Union.svg" alt="">
-     </div>
-    <ul class="frame">
-        <li><a href="#"><img  src="./images/Frame9.svg" alt=""></a></li>
-        <li><a href="#"><img  src="./images/Frame10.svg" alt=""></a></li>
-        <li><a href="#"><img  src="./images/Frame11.svg" alt=""></a></li>
-    </ul>
-    <h4>Frameworks</h4>
-    <div class="union-img">
-   <img src="./images/Disabled.svg" alt="">
-</div>
-    <h5>Skills</h5>
-    <div class="disabled-img">
-        <img src="./images/Disabled.svg" alt=""> 
-     </div>
-</div>
-</div>
-  
-</section>
+        <nav class="toolbar">
+            <a href="./index.html"><img class="toolbar-img2" src="images/logo.svg" alt="Logo"></a>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
 
-<section class="contact">
-    <div class="lipse">
-      <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="10.5" cy="10.5" r="10.5" fill="#7F8CFF"/>
-          </svg>
-           </div>
-    <div class="rectangle">
-      <svg width="65" height="46" viewBox="0 0 65 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect y="29.3994" width="74.7012" height="17.2106" transform="rotate(-23.1765 0 29.3994)" fill="#7F8CFF"/>
-          </svg>
-    </div>
-    <div class="ellipse">
-      <svg width="47" height="86" viewBox="0 0 47 86" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M84.2067 23.4103C80.7385 17.3223 75.8692 12.1276 69.9932 8.24664C64.1172 4.36571 57.3996 1.9077 50.3842 1.07163C43.3689 0.235572 36.2531 1.04496 29.6129 3.43425C22.9728 5.82355 16.9949 9.72559 12.1634 14.8244C7.33183 19.9233 3.78242 26.0756 1.80255 32.7833C-0.177326 39.491 -0.532025 46.5655 0.767174 53.4339C2.06637 60.3023 4.98295 66.7717 9.28075 72.3182C13.5786 77.8646 19.1368 82.3323 25.5054 85.3594L33.8939 68.1011C30.2658 66.3766 27.0992 63.8314 24.6508 60.6716C22.2023 57.5117 20.5408 53.8261 19.8006 49.9132C19.0605 46.0003 19.2625 41.9699 20.3905 38.1486C21.5184 34.3272 23.5405 30.8222 26.293 27.9174C29.0455 25.0126 32.4511 22.7896 36.234 21.4285C40.0169 20.0673 44.0708 19.6062 48.0674 20.0825C52.064 20.5588 55.891 21.9591 59.2386 24.1701C62.5862 26.381 65.3602 29.3405 67.336 32.8088L84.2067 23.4103Z" fill="white"/>
-          </svg>
-    </div>
-    <h6>contact me</h6>
-    <p class="content">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-    <div class="form">
-      <form action="https://formspree.io/f/" method="post">
-          <label for="name"></label><br>
-          <input type="text" id="name" placeholder="Your name" minlength="0" maxlength="30" required><br>
-          <label for="email"></label><br>
-          <input name="Email" id="email" type="email" placeholder="abc@gmail.com" minlength="0" maxlength="30" required><br>
-          <label for="name"></label><br>
-          <textarea rows="5" cols="33" name="message" placeholder="write your message" minlength="0" maxlength="30" required></textarea><br>
-          <br>
-          <div class="ellipse5">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="16.2283" cy="16.2188" r="15.5552" transform="rotate(48.9435 16.2283 16.2188)" fill="white"/>
-                  </svg>
-                  </div>
-                  <div class="rectangle7">
-                      <svg width="70" height="58" viewBox="0 0 70 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <rect width="76.175" height="13.6273" transform="matrix(0.801365 0.598176 0.598176 -0.801365 0.804688 11.8887)" fill="#7F8CFF"/>
-                          </svg>
-                          
-                         </div>
-          <button type="submit">Get in touch</button>
-          <div class="shape">
-              <svg width="134" height="5" viewBox="0 0 134 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect width="134" height="5" rx="2.5" fill="#0D151E"/>
-                  </svg>
-                  
+            <ul class="navbar-links">
+                <li><a href="#section-one">Portfolio</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
 
-          </div>
-          </form>
-  </div>
-</section>
+        </nav>
 
+        <section class="intro-section">
+            <div class="content-intro">
+                <div class="hed">
+                <hgroup class="font-sizing">
+                    <h1>I'am Isabella</h1>
+                    <h2>Glad to see you!</h2>
+                </hgroup>
+                <p class="intro-p">I’m a software developer! I can help you build a product , feature or website Look
+                    through some of my
+                    work and experience! If you like what you see and have a project you need coded, don’t hestiate to
+                    contact me.
+                </p>
+                <h4><a class="intro-connect" href="#">LET'S CONNECT</a></h4>
+                <ul class="social">
+                    <li><a href="https://twitter.com/BelguithTaheny"><img class="image1" src="./images/twitter.svg"
+                                alt="twitter"></a></li>
+                    <li><a href="https://www.linkedin.com/in/belguith-taheny-47b93a162/"><img class="image2"
+                                src="./images/linkedin.svg" alt="linkedin"></a></li>
+                    <li><a href="https://medium.com/@tahnyybelguith"><img class="image3" src="./images/medium.svg"
+                                alt="medium"></a></li>
+                    <li><a href="https://github.com/TahenyBELGUITH"><img class="image5" src="./images/github.svg"
+                                alt="github"></a></li>
+                    <li><a href="#"><img class="image6" src="./images/angellist.svg" alt="angellist"></a></li>
+                </ul>
+      </div>          
+            </div>
+        </section>
+    </header>
+    <main class="wrapper">
+        <section class="works section-one">
+            <div class="image"><a class="tonic-img" href="#"><img src="images/1.svg" alt="tonic"></a>
+            </div>
+            <div class="content-img">
+                <h2 class="tonic-header">Tonic</h2>
+                <ul class="canopy">
+                    <li class="canopy-color">CANOPY</li>
+                    <li><img src="images/Counter.svg" alt="counter"></li>
+                    <li class="canopy-color-2">Back END dev</li>
+                    <li><img src="images/Counter.svg" alt="counter"></li>
+                    <li class="canopy-color-2">2015</li>
+                </ul>
+                <p class="intro-p canopy-p">A daily selection of privately personalized reads; no accounts or sign-ups
+                    required.
+                </p>
+                <ul class="canopy">
+                    <li><button type="button" class="html-btn btn">HTML</button></li>
+                    <li><button type="button" class="css-btn btn">CSS</button></li>
+                    <li><button type="button" class="js-btn btn">JavaScript</button>
+                    </li>
+                </ul>
+                <button class="tonic-button-submit submit-btn" type="submit">See Projects</button>
+            </div>
+        </section>
+
+
+        <section class="works section-two">
+
+            <div class="image-two image"><a class="tonic-img" href="#"><img src="images/2.svg" alt="tonic"></a></div>
+            <div class="content-img">
+                <h2 class="tonic-header">Multi-Post Stories</h2>
+                <ul class="canopy">
+                    <li class="canopy-color">CANOPY</li>
+                    <li><img src="images/Counter.svg" alt="counter"></li>
+                    <li class="canopy-color-2">Back END dev</li>
+                    <li><img src="images/Counter.svg" alt="counter"></li>
+                    <li class="canopy-color-2">2015</li>
+                </ul>
+                <p class="intro-p canopy-p">A daily selection of privately personalized reads; no accounts or sign-ups
+                    required.
+                </p>
+                <ul class="canopy">
+                    <li><button type="button" class="html-btn btn">HTML</button></li>
+                    <li><button type="button" class="css-btn btn">CSS</button></li>
+                    <li><button type="button" class="js-btn btn">JavaScript</button>
+                    </li>
+                </ul>
+                <button class="tonic-button- submit-btn" type="submit">See Projects</button>
+            </div>
+        </section>
+
+        <section class="works section-three">
+
+
+            <div class="image"><a class="tonic-img image" href="#"><img src="images/3.svg" alt="tonic"></a>
+            </div>
+            <div class="content-img">
+                <h2 class="tonic-header">Tonic</h2>
+                <ul class="canopy">
+                    <li class="canopy-color">CANOPY</li>
+                    <li><img src="images/Counter.svg" alt="counter"></li>
+                    <li class="canopy-color-2">Back END dev</li>
+                    <li><img src="images/Counter.svg" alt="counter"></li>
+                    <li class="canopy-color-2">2015</li>
+                </ul>
+                <p class="intro-p canopy-p">A daily selection of privately personalized reads; no accounts or sign-ups
+                    required.
+                </p>
+                <ul class="canopy">
+                    <li><button type="button" class="html-btn btn">HTML</button></li>
+                    <li><button type="button" class="css-btn btn">CSS</button></li>
+                    <li><button type="button" class="js-btn btn">JavaScript</button>
+                    </li>
+                </ul>
+                <button class="tonic-button-submit submit-btn" type="submit">See Projects</button>
+
+            </div>
+        </section>
+
+        <section class="works section-four">
+            <div class="image-two image"><a class="tonic-img" href="#"><img src="images/4.svg" alt="tonic"></a>
+            </div>
+            <div class="content-img">
+                <h2 class="tonic-header">Multi-Post Stories</h2>
+                <ul class="canopy">
+                    <li class="canopy-color">CANOPY</li>
+                    <li><img src="images/Counter.svg" alt="counter"></li>
+                    <li class="canopy-color-2">Back END dev</li>
+                    <li><img src="images/Counter.svg" alt="counter"></li>
+                    <li class="canopy-color-2">2015</li>
+                </ul>
+                <p class="intro-p canopy-p">A daily selection of privately personalized reads; no accounts or sign-ups
+                    required.
+                </p>
+                <ul class="canopy">
+                    <li><button type="button" class="html-btn btn">HTML</button></li>
+                    <li><button type="button" class="css-btn btn">CSS</button></li>
+                    <li><button type="button" class="js-btn btn">JavaScript</button>
+                    </li>
+                </ul>
+                <button class="tonic-button-submit submit-btn" type="submit">See Projects</button>
+            </div>
+        </section>
+
+        <section class="about-me">
+            <div class="about-top">
+                <hgroup class="font-sizing-about">
+                    <h2>About Myself</h2>
+                </hgroup>
+                <p class="intro-p about-p">Hello I’m a software developer! I can help you build a product , feature or
+                    website
+                    Look through some
+                    of
+                    my
+                    work and
+                    experience! If you like what you see and have a project you need coded, don’t hestiate to contact
+                    me.
+                </p>
+                <h4 class="connect-about"><a class="intro-connect" href="#">LET'S CONNECT</a></h4>
+                <ul class="social">
+                    <li><a href="https://twitter.com/BelguithTaheny"><img class="image1" src="./images/twitter.svg"
+                                alt="twitter"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/belguith-taheny-47b93a162/"><img class="image2"
+                                src="./images/linkedin.svg" alt="linkedin"></a></li>
+                    <li><a href="https://medium.com/@tahnyybelguith"><img class="image3" src="./images/medium.svg"
+                                alt="medium"></a>
+                    </li>
+                    <li><a href="https://github.com/TahenyBELGUITH"><img class="image5" src="./images/github.svg"
+                                alt="github"></a>
+                    </li>
+                    <li><a href="#"><img class="image6" src="./images/angellist.svg" alt="angellist"></a></li>
+                </ul>
+                <button class="tonic-button-submit about-btn submit-btn-about" type="submit">Get My Resume</button>
+            </div>
+            <ul class="lang-list">
+                <li>
+
+                    <div class="about_lang">
+                        <h4 class="lang-hover">Languages</h4>
+                        <p><i class="fas fa-chevron-down"></i></p>
+                    </div>
+
+                    <ul class="list-imag">
+                        <li class="list-item-img-css">
+                            <span class="js"></span>
+                            <span class="two two-js">JavaScript</span>
+                        </li>
+                        <li class="list-item-img-css">
+                            <span class="css"></span>
+                            <span class="two">CSS</span>
+                        </li>
+                        <li class="list-item-img-css">
+                            <span class="html"></span>
+                            <span class="two">HTML</span>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="about-lang">
+                        <h4 class="lang-hover">Frameworks</h4>
+                        <i class="fas fa-chevron-right icon"></i>
+                    </div>
+                    <hr class="hr">
+                </li>
+                <li>
+                    <div class="about-lang">
+                        <h4 class="lang-hover">Skills</h4>
+                        <i class="fas fa-chevron-right icon"></i>
+                    </div>
+                    <hr class="hr">
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>Contact me </h2>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that
+            needs
+            coding. I’d love to help with it</p>
+        <form action="https://formspree.io/f/mknkvkrk" method="post" class="form-container">
+            <input name="name" type="text" maxlength="30" placeholder=" Isabella" required>
+            <input name="email" type="email" placeholder="abc.belguith@gmail.com" required>
+            <textarea name="message" maxlength="500" required>Write your message Here!</textarea>
+            <button class="submit-btn" type="submit">Get In touch</button>
+        </form>
+        <img src="./images/Shape.svg" alt="">
+    </footer>
 </body>
 
 </html>
