@@ -25,6 +25,10 @@ label.logo {
   font-weight: bold;
 }
 
+label.logo:hover {
+  transform: scale(1.5);
+}
+
 nav ul {
   float: right;
   margin: 20px;
@@ -655,6 +659,14 @@ textarea {
   nav ul li a {
     font-size: 16px;
   }
+}
+
+.icons:hover {
+  transform: translate(10px, 14px);
+}
+
+.icon:hover {
+  transform: rotate(45deg);
 }
 
 @media (max-width: 858px) {
