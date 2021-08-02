@@ -43,7 +43,6 @@ li {
   background-size: cover;
   background-position: center center;
   width: 110%;
-  background-color: #fff;
   padding-top: 114px;
   padding-bottom: 136px;
   padding-left: 24px;
@@ -562,6 +561,7 @@ textarea {
 
   .canopy,
   .tonic-button-submit {
+    border: 0.1rem solid #6070ff;
     margin-top: 18px;
     margin-left: 38px;
   }
