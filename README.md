@@ -6,7 +6,7 @@
 
 ## Built With
 
-- Major languages wchich include HTML & CSS
+- Major languages wchich include HTML, CSS & Javascript
 - Frameworks like scss
 - Technologies used
 
