@@ -10,9 +10,7 @@
 - Frameworks like scss
 - Technologies used
 
-# Live Demo
 
-https://isabellanamutenda.github.io/Portfolio/
 
 ## Getting Started
 
