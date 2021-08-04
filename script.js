@@ -1,4 +1,4 @@
-// Mobile menu object////////////////////
+
 const overlay = document.querySelector('.overlay');
 const options = document.querySelectorAll('.option');
 const btnCloseMenu = document.querySelector('.close-menu');
@@ -19,9 +19,7 @@ for (let i = 0; i < options.length; i += 1) {
   options[i].addEventListener('click', closeMenu);
 }
 
-// Mobile menu end////////////////////
 
-// Popup menu object////////////////////
 const data = {
   project1: {
     name: 'Tonic',
@@ -67,7 +65,7 @@ const data = {
   },
 };
 
-// Popup menu variables////////////////////
+
 const nameID = document.getElementById('name');
 const img = document.getElementById('img');
 const companyName = document.getElementById('companyName');
@@ -133,7 +131,7 @@ button4.addEventListener('click', () => {
 popupOverlay.addEventListener('click', closePopUp);
 btnClosePop.addEventListener('click', closePopUp);
 
-// Popup end /////////////////////
+
 
 const form = document.getElementById('contact-form');
 const email = document.getElementById('email');
