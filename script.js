@@ -63,7 +63,6 @@ const data = {
   },
 };
 
-
 const nameID = document.getElementById('name');
 const img = document.getElementById('img');
 const companyName = document.getElementById('companyName');
