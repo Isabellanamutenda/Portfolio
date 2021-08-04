@@ -37,11 +37,7 @@
           <ul class="card-info desk">
             <li id="companyName">CANOPY</li>
             <li>
-              <img
-                src="images/section-work/Counter.svg"
-                alt="dot"
-                class="card-info-dot"
-              />
+              <img src="images/section-work/Counter.svg" alt="dot" class="card-info-dot"/>
             </li>
             <li class="input-text" id="job">Back End Dev</li>
             <li>
@@ -392,33 +388,39 @@
         </p>
       </div>
       <form
-        action="https://formspree.io/f/xzbyaeyk"
+        id="contact-form"
         method="POST"
         class="contact-form"
+        action="https://formspree.io/f/xzbyaeyk"
       >
         <ul>
           <li>
             <input
+              id="user-name"
               type="text"
               pattern="[A-Za-z]+"
               class="contact-element"
               name="user-name"
-              placeholder="Isabella"
+              placeholder="Full Name"
               maxlength="30"
               required
             />
+            <small></small>
           </li>
           <li>
             <input
+              id="email"
               type="email"
               class="contact-element"
               name="user-email"
-              placeholder="abc@gmail.com"
+              placeholder="example@gmail.com"
               required
             />
           </li>
+
           <li>
             <textarea
+              id="text"
               name="user-message"
               class="contact-element"
               cols="30"
@@ -429,7 +431,9 @@
             ></textarea>
           </li>
           <li>
+            <p class="show-msg">Please make sure the email is all lower case!</p>
             <input
+              id="submit"
               type="submit"
               value="Get in touch"
               class="button btn-contact"
@@ -439,7 +443,6 @@
       </form>
     </section>
 
-   
     <script src="script.js"></script>
   </body>
 </html>
