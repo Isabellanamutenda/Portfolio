@@ -30,7 +30,7 @@ const data = {
     job: 'Back End Dev',
     year: 2015,
     decription:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply ',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ',
     tags: ['html', 'css', 'javaScript'],
   },
 
@@ -41,7 +41,7 @@ const data = {
     job: 'Full Stack Dev',
     year: 2015,
     decription:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled  text of the printing and typesetting industry. y. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scr',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
     tags: ['html', 'Ruby on rails', 'css', 'javaScript'],
   },
 
@@ -52,7 +52,7 @@ const data = {
     job: 'Full Stack Dev',
     year: 2015,
     decription:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
     tags: ['html', 'Ruby on rails', 'css', 'javaScript'],
   },
   project4: {
@@ -62,7 +62,7 @@ const data = {
     job: 'Lead Developer',
     year: 2018,
     decription:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  ',
     tags: ['html', 'Ruby on rails', 'css', 'javaScript'],
   },
 };

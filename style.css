@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 59.5%;
 }
 
 body {
@@ -181,23 +181,17 @@ body {
 }
 
 .popup {
-  position: fixed;
-  top: 61%;
+  position: absolute;
+  top: 50%;
   left: 50%;
-  width: 95%;
+  width: 58%;
   transform: translate(-50%, -50%);
   z-index: 100;
 }
 
 .text-secondary.mob {
   overflow: hidden;
-  height: 7rem;
-  margin-bottom: 1rem;
-}
-
-.line {
-  border: 0.1rem solid #ebecf0;
-  margin-top: 1rem;
+  height: 5rem;
   margin-bottom: 1rem;
 }
 
@@ -216,7 +210,7 @@ body {
 }
 
 .popup-close-btn {
-  height: 2rem;
+  height: 1rem;
   position: absolute;
   width: 1.4rem;
   right: 2rem;
@@ -240,7 +234,7 @@ body {
   gap: 1.2rem;
   border-radius: 1.6rem;
   background-color: #fff;
-  padding: 1.6rem;
+  padding: 0.2rem;
   border: 0.2rem solid transparent;
 }
 
@@ -552,7 +546,7 @@ body {
   /* POPUP MEDIA */
 
   .card.popup.desk {
-    height: 73rem;
+    height: 57rem;
     width: 100rem;
   }
 
@@ -588,8 +582,8 @@ body {
   }
 
   .text-secondary.desk {
-    width: 100%;
-    height: 20rem;
+    width: 80%;
+    height: 15rem;
   }
 
   .second {
@@ -610,6 +604,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-self: center;
+    margin-bottom: 6rem;
   }
 
   .button.btn-element.desk {
@@ -642,7 +637,7 @@ body {
   }
 
   .text-secondary {
-    width: 46.4rem;
+    width: 40.4rem;
   }
 
   .about-text {
