@@ -132,11 +132,43 @@ const form = document.getElementById('contact-form');
 const email = document.getElementById('email');
 const msg = document.querySelector('.pop-msg');
 
+const inputName = document.getElementById('user-name');
+const inputMessage = document.getElementById('text');
+console.log( inputMessage,inputName, email );
+
 function validationEmail(e) {
   if (email.value !== email.value.toLowerCase()) {
     msg.style.display = 'block';
     e.preventDefault();
   }
+  const data = {
+    name : inputName.value,
+    email: email.value,
+    message: inputMessage.value,
+  }
+  localStorage.setItem('data', JSON.stringify(data));
 }
 
 form.addEventListener('submit', validationEmail);
+
+
+window.addEventListener('load', () => {
+const data1 =  JSON.parse(localStorage.getItem('data')) || [];
+inputName.value = data1.name;
+email.value =  data1.email;
+inputMessage.value =  data1.message;
+});
+
+const LoalStorage =  {
+  getItem(data) {
+    return localStorage.getItem(`${data}`)
+  },
+
+  setItem(data) {
+    return localStorage.setItem(JSON.stringify(`${data}`))
+  },
+
+  clear(){
+    localStorage.clear();
+  }
+}
