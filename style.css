@@ -138,13 +138,13 @@ body {
   gap: 1.2rem;
 }
 
-.heading-primary {
+.head-p {
   font-size: 4rem;
   font-weight: 700;
   color: #172b4d;
 }
 
-.text-primary {
+.text-p {
   font-size: 1.6rem;
   font-weight: 400;
   color: #344563;
