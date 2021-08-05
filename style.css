@@ -470,12 +470,12 @@ body {
 }
 
 /* Alert message start */
-.show-msg {
-  color: brown;
+.pop-msg {
+  color: #7a869a;
   background-color: #fff;
   border-radius: 0.6rem;
   display: none;
-  font-size: 1.3rem;
+  font-size: 12px;
   padding: 0.5rem;
   text-align: center;
   animation: show-msg 1s 1;
@@ -483,7 +483,7 @@ body {
   margin-bottom: 0.4rem;
 }
 
-@keyframes show-msg {
+@keyframes pop-msg {
   from {
     visibility: hidden;
     background-color: #fff;
