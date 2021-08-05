@@ -130,7 +130,7 @@ btnClosePop.addEventListener('click', closePopUp);
 
 const form = document.getElementById('contact-form');
 const email = document.getElementById('email');
-const msg = document.querySelector('.show-msg');
+const msg = document.querySelector('.pop-msg');
 
 function validationEmail(e) {
   if (email.value !== email.value.toLowerCase()) {
