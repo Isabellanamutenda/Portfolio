@@ -189,7 +189,7 @@ h2 {
   z-index: 100;
 }
 
-.text-secondary.mob {
+.text-s.mob {
   overflow: hidden;
   height: 5rem;
   margin-bottom: 1rem;
@@ -288,18 +288,18 @@ h2 {
   width: 0.8rem;
 }
 
-.text-secondary {
+.text-s {
   font-size: 1.5rem;
   font-weight: 400;
   color: #344563;
 }
 
-.card-tags {
+.btn-tags {
   display: flex;
   gap: 0.8rem;
 }
 
-.card-tags li {
+.btn-tags li {
   list-style: none;
   padding: 0.4rem 1.2rem;
   color: #6070ff;
@@ -606,7 +606,7 @@ h2 {
     width: 70%;
   }
 
-  .text-secondary.desk {
+  .text-s.desk {
     width: 80%;
     height: 15rem;
   }
@@ -619,7 +619,7 @@ h2 {
     gap: 3rem;
   }
 
-  .card-tags.desk {
+  .btn-tags.desk {
     display: flex;
     justify-content: center;
   }
@@ -661,7 +661,7 @@ h2 {
     gap: 2.4rem;
   }
 
-  .text-secondary {
+  .text-s {
     width: 40.4rem;
   }
 
