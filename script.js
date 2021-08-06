@@ -151,18 +151,14 @@ function validationEmail(e) {
 form.addEventListener('submit', validationEmail);
 
 window.addEventListener('load', () => {
-
-  if (localStorage.getItem('data') !== null){
-    const data1 =  JSON.parse(localStorage.getItem('data')) || [];
+  if (localStorage.getItem('data') !== null) {
+    const data1 = JSON.parse(localStorage.getItem('data')) || [];
     inputName.value = data1.name;
-    email.value =  data1.email;
-    inputMessage.value =  data1.message;
-  } else{
-    inputName.value = "";
-    email.value =  "";
-    inputMessage.value =  "";
+    email.value = data1.email;
+    inputMessage.value = data1.message;
+  } else {
+    inputName.value = '';
+    email.value = '';
+    inputMessage.value = '';
   }
-
 });
-
-
