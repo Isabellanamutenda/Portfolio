@@ -151,8 +151,8 @@ function validationEmail(e) {
 form.addEventListener('submit', validationEmail);
 
 window.addEventListener('load', () => {
-  if (localStorage.getItem('data') !== null) {
-    const data1 = JSON.parse(localStorage.getItem('data')) || [];
+  const data1 = JSON.parse(localStorage.getItem('data')) || {};
+  if (Object.keys(data1).length) {
     inputName.value = data1.name;
     email.value = data1.email;
     inputMessage.value = data1.message;
