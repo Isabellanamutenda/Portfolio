@@ -129,14 +129,48 @@ popupOverlay.addEventListener('click', closePopUp);
 btnClosePop.addEventListener('click', closePopUp);
 
 const form = document.getElementById('contact-form');
-const email = document.getElementById('email');
 const msg = document.querySelector('.pop-msg');
+
+const inputName = document.getElementById('user-name');
+const email = document.getElementById('email');
+const inputMessage = document.getElementById('text');
+
+const data1 = JSON.parse(localStorage.getItem('data')) || {};
+
+[inputName, email, inputMessage].forEach((input) => {
+  input.addEventListener('change', () => {
+    const data = {
+      name: inputName.value,
+      email: email.value,
+      message: inputMessage.value,
+    };
+    localStorage.setItem('data', JSON.stringify(data));
+  });
+});
 
 function validationEmail(e) {
   if (email.value !== email.value.toLowerCase()) {
     msg.style.display = 'block';
     e.preventDefault();
   }
+  const data = {
+    name: inputName.value,
+    email: email.value,
+    message: inputMessage.value,
+  };
+  localStorage.setItem('data', JSON.stringify(data));
 }
 
 form.addEventListener('submit', validationEmail);
+
+window.addEventListener('load', () => {
+  if (Object.keys(data1).length) {
+    inputName.value = data1.name;
+    email.value = data1.email;
+    inputMessage.value = data1.message;
+  } else {
+    inputName.value = '';
+    email.value = '';
+    inputMessage.value = '';
+  }
+});

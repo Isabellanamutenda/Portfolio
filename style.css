@@ -22,6 +22,7 @@ body {
   font-size: 1.7rem;
   text-decoration: none;
   color: #396df2;
+  background-color: #fff;
   border: 0.1rem solid #6070ff;
   border-radius: 0.8rem;
   padding: 1.2rem;
@@ -138,19 +139,19 @@ body {
   gap: 1.2rem;
 }
 
-.heading-primary {
+.head-p {
   font-size: 4rem;
   font-weight: 700;
   color: #172b4d;
 }
 
-.text-primary {
+.text-p {
   font-size: 1.6rem;
   font-weight: 400;
   color: #344563;
 }
 
-.connect-btn {
+.h2 {
   display: inline-block;
   font-size: 1.6rem;
   font-weight: 500;
@@ -159,12 +160,8 @@ body {
   transition: color 0.2s;
 }
 
-.connect-btn:hover {
+h2 {
   color: #396df2;
-}
-
-.connect-btn:active {
-  color: #6070ff;
 }
 
 /* POPUP WINDOW */
@@ -189,7 +186,7 @@ body {
   z-index: 100;
 }
 
-.text-secondary.mob {
+.text-s.mob {
   overflow: hidden;
   height: 5rem;
   margin-bottom: 1rem;
@@ -288,18 +285,18 @@ body {
   width: 0.8rem;
 }
 
-.text-secondary {
+.text-s {
   font-size: 1.5rem;
   font-weight: 400;
   color: #344563;
 }
 
-.card-tags {
+.btn-tags {
   display: flex;
   gap: 0.8rem;
 }
 
-.card-tags li {
+.btn-tags li {
   list-style: none;
   padding: 0.4rem 1.2rem;
   color: #6070ff;
@@ -606,7 +603,7 @@ body {
     width: 70%;
   }
 
-  .text-secondary.desk {
+  .text-s.desk {
     width: 80%;
     height: 15rem;
   }
@@ -619,7 +616,7 @@ body {
     gap: 3rem;
   }
 
-  .card-tags.desk {
+  .btn-tags.desk {
     display: flex;
     justify-content: center;
   }
@@ -661,7 +658,7 @@ body {
     gap: 2.4rem;
   }
 
-  .text-secondary {
+  .text-s {
     width: 40.4rem;
   }
 

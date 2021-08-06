@@ -13,18 +13,13 @@
   
     gtag('config', 'G-JE8CFDZQT6');
   </script>
-    <title>My Portfolio Project</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
+ 
   </head>
 
   <body>
-    <!-- POPUP BEGINNING PAIR PROGRAMMING-->
+
     <div class="popup-overlay hidden" id="popup">
       <div class="card popup desk">
         <div class="card-content desk">
@@ -57,10 +52,10 @@
           />
           <div class="desk-pop">
             <div class="first">
-              <p class="text-secondary mob desk" id="description"></p>
+              <p class="text-s mob desk" id="description"></p>
             </div>
             <div class="second">
-              <ul class="card-tags desk" id="tags"></ul>
+              <ul class="btn-tags desk" id="tags"></ul>
               <div class="line"></div>
               <div class="popup-button desk">
                 <a href="#" class="button btn-element desk"
@@ -77,15 +72,15 @@
         </div>
       </div>
     </div>
-    <!-- POPUP END -->
+ 
 
     <nav class="navigation">
       <p class="logo">My Logo</p>
       <img src="images/Union.svg" alt="logo" class="hamburger open-menu" />
       <ul class="item-navigation">
-        <li><a href="#work">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
 
@@ -95,22 +90,22 @@
       </button>
 
       <ul class="sections-list">
-        <li><a href="#work" class="option">Portfolio</a></li>
-        <li><a href="#about" class="option">About</a></li>
-        <li><a href="#contact" class="option">Contact</a></li>
+        <li><a href="#" class="option">Portfolio</a></li>
+        <li><a href="#" class="option">About</a></li>
+        <li><a href="#" class="option">Contact</a></li>
       </ul>
     </div>
 
     <header class="header">
       <div class="header-text">
-        <h1 class="heading-primary">I'm Isabella<br> Glad to see you!</h1>
-        <p class="text-primary">
+        <h1 class="head-p">I'm Isabella<br> Glad to see you!</h1>
+        <p class="text-p">
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
           you see and have a project you need coded, don’t hestiate to contact
           me.
         </p>
-        <a href="#" class="connect-btn">LET'S CONNECT</a>
+        <h2>LET'S CONNECT</h2>
         <ul class="social-icons">
           <li>
             <a href="#"><img src="./images/Twitter.svg" alt="Twitter" /></a>
@@ -161,11 +156,11 @@
             </li>
             <li class="input-text">2015</li>
           </ul>
-          <p class="text-secondary">
+          <p class="text-s">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required.
           </p>
-          <ul class="card-tags">
+          <ul class="btn-tags">
             <li>html</li>
             <li>css</li>
             <li>javaScript</li>
@@ -202,12 +197,12 @@
             </li>
             <li class="input-text">2015</li>
           </ul>
-          <p class="text-secondary">
+          <p class="text-s">
             Experimental content creation feature that allows users to add to an
             existing story over the course of a day without spamming their
             friends.
           </p>
-          <ul class="card-tags">
+          <ul class="btn-tags">
             <li>html</li>
             <li>Ruby on rails</li>
             <li>css</li>
@@ -245,11 +240,11 @@
             </li>
             <li class="input-text">2015</li>
           </ul>
-          <p class="text-secondary">
+          <p class="text-s">
             Exploring the future of media in Facebook's first Virtual Reality
             app; a place to discover and enjoy 360 photos and videos on Gear VR.
           </p>
-          <ul class="card-tags">
+          <ul class="btn-tags">
             <li>html</li>
             <li>Ruby on rails</li>
             <li>css</li>
@@ -287,11 +282,11 @@
             </li>
             <li class="input-text">2018</li>
           </ul>
-          <p class="text-secondary">
+          <p class="text-s">
             A smart assistant to make driving more safe, efficient, and fun by
             unlocking your most expensive computer: your car.
           </p>
-          <ul class="card-tags">
+          <ul class="btn-tags">
             <li>html</li>
             <li>Ruby on rails</li>
             <li>css</li>
@@ -307,14 +302,14 @@
     <section class="about" id="about">
       <div class="about-text">
         <div class="first-part">
-          <h2 class="heading-primary">About Myself</h2>
-          <p class="text-primary">
+          <h2 class="head-p">About Myself</h2>
+          <p class="text-p">
             Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If
             you like what you see and have a project you need coded, don’t
             hestiate to contact me.
           </p>
-          <a href="#" class="connect-btn">LET'S CONNECT</a>
+         <h2>LET'S CONNECT</h2>
           <ul class="social-icons">
             <li>
               <a href="#"><img src="./images/Twitter.svg" alt="Twitter" /></a>
@@ -403,6 +398,7 @@
               name="user-name"
               placeholder="Isabella"
               maxlength="30"
+              autocomplete="off" 
               required
             />
             <small></small>
@@ -414,6 +410,7 @@
               class="contact-element"
               name="user-email"
               placeholder="abc@gmail.com"
+              autocomplete="off"
               required
             />
           </li>
@@ -427,6 +424,7 @@
               rows="10"
               placeholder="Write your message here"
               maxlength="500"
+              autocomplete="off"
               required
             ></textarea>
           </li>
@@ -442,6 +440,9 @@
         </ul>
       </form>
     </section>
+
+    
     <script src="script.js"></script>
   </body>
 </html>
+
