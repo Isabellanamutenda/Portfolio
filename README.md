@@ -48,11 +48,6 @@ To get a copy up and running you follow these simple example steps.
 - Twitter: [@INamtenda](https://twitter.com/INamtenda)
 - LinkedIn: [Isabella Namutenda](https://www.linkedin.com/in/isabella-namutenda/)
 
-👤 **Taheny BELGUITH**
-
-- GitHub: [@TahenyBELGUITH](https://github.com/TahenyBELGUITH)
-- Twitter: [@BelguithTaheny](https://twitter.com/BelguithTaheny)
-- LinkedIn: [belguith taheny](https://www.linkedin.com/in/belguith-taheny-47b93a162/)
 
 ## Show your support
 Give a ⭐️ if you like this project!
