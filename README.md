@@ -1,5 +1,5 @@
 
-# Portfolio project
+# Portfolio Project
 
 > This is a project where I am creating a portfolio.
 
